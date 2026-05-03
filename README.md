@@ -1,7 +1,3 @@
-Based on the files in your repository [ashishkathane599/BERT-Fine-Tuning-On-Custom-Data-](https://github.com/ashishkathane599/BERT-Fine-Tuning-On-Custom-Data-), here is a comprehensive `README.md` file you can use to document your project.
-
----
-
 # BERT Fine-Tuning on Custom Data
 
 This repository contains notebooks and datasets for fine-tuning **BERT** and **DistilBERT** models using the [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) library. The project focuses on text classification tasks, specifically **SMS Spam Detection** and **Sentiment Analysis**.
@@ -55,6 +51,3 @@ model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_l
 ## 📜 License
 This project is open-source. Feel free to use the code for your own research or production-level NLP applications.
 
----
-
-Would you like me to add a specific section on how to save the fine-tuned model and use it for real-time inference?
